@@ -22,16 +22,19 @@ AttendanceSystem — консольное приложение для учёта
 ## Структура проекта
 
 ```text
-AttendanceSystem/
+PythonApplication1/
 │
-├── .gitignore                  # Исключения для Git
-├── README.md                   # Документация проекта
+├── .gitignore                  # Исключения Git (создала VS)
+├── .gitattributes              # Настройки Git (создала VS)
+├── README.md                   # Описание проекта
 ├── requirements.txt            # Зависимости проекта
+├── PythonApplication1.slnx     # Файл решения VS
+├── PythonApplication1.pyproj   # Файл проекта Python
 │
-├── PythonApplication1.py       # Точка входа в приложение
+├── PythonApplication1.py       # Точка входа (код программы)
 │
-└── docs/                       # Документация проекта
-    └── use_case.puml           # Диаграмма вариантов использования
+└── docs/                       # Документация
+    └── use_case.puml           # PlantUML-диаграмма
 ```
 ## Архитектура
 
